@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .leftside{
+            flex:auto;
+        }
+
+        .rightside{
+            flex:auto;
+        }
+
+        .rightside ul{
+            display: flex;
+        }
+
+        .rightside ul li{
+            flex: 1;
+            list-style: none;
+        }
+        .work{
+            margin: 25%;
+            border: 2px solid black;
+            text-align: center;
+            justify-content: center;
+            /* position: relative; */
+            width: 300px;
+            height: 200px;
+            overflow:scroll;
+        }
+        .random{
+            border: 2px solid black;
+            text-align: center;
+            justify-content: center;
+            margin: 2px;
+            /* position: fixed; */
+            width: 350px;
+            background-color: aqua;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="leftside">HII</div>
+        <div class="rightside">
+            <ul>
+                <li>h</li>
+                <li>i</li>
+                <li>i</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="work">
+        <div class="random">
+            <h2>Hello</h2>
+        </div>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ducimus cupiditate molestias in eligendi fuga voluptatum, explicabo officiis aspernatur adipisci natus dicta, repudiandae odit delectus accusantium architecto cum laborum sint.</h2>
+
+    </div>
+</body>
+</html>
